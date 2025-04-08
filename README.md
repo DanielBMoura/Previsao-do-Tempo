@@ -56,19 +56,19 @@ git clone https://github.com/DanielBMoura/Previsao-do-Tempo.git
 
 ## Inicializando o servidor 🚀
 
-No CMD inicie o MongoDB:
+No CMD, entre na pasta do seu projeto e instale as dependências do projeto:
 ```bash
-mongod
+npm install
 ```
 
-Em outro terminal, acesse o shell do MongoDB:
+Crie um arquivo .env na raiz do projeto e adicione sua chave da API do OpenWeatherMap:
 ```bash
-mongosh
+API_KEY=SUA_CHAVE_AQUI
 ```
 
-No terminal do Visual Studio Code:
-```
-node app.js
+Agora, inice o servidor:
+```bash
+node App.js
 ```
 
 ## Considerações finais 📝
