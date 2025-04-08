@@ -4,7 +4,6 @@
 // // é chamado
 
 function colocarNaTela(dados){
-	console.log(dados)
 	document.querySelector(".cidade").innerHTML = "Tempo em " + dados.name
 	document.querySelector(".temp").innerHTML = Math.floor(dados.main.temp) + "°C"
 	document.querySelector(".descricao").innerHTML = dados.weather[0].description
@@ -16,8 +15,6 @@ async function buscarCidade(cidade){
 
 	const resposta = await fetch(`/clima?cidade=${cidade}`)
 	const dados = await resposta.json()
-	
-	console.log('Passei pelo bakc end')
 
 	colocarNaTela(dados)
 }
