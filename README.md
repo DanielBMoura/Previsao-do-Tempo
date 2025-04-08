@@ -14,9 +14,19 @@ No back-end, a aplicação utiliza Node.js para tratar as requisições e fazer 
 
 ## Funcionalidades ✨
 
-📊 **Área Administrativa**: Possui um painel para gerenciar as categorias e postagens com operações de **CRUD**.  
+📍 **Busca por cidade:** Permite ao usuário digitar o nome de uma cidade e obter a previsão do tempo em tempo real.  
 
-🔒 **Autenticação de Usuário**: Permite o cadastro e login seguro.
+🌡️ **Temperatura atual:** Exibe os graus Celsius da cidade pesquisada de forma clara e destacada. 
+
+🌤️ **Condições do clima:** Informa se o tempo está ensolarado, nublado, chuvoso, entre outras possibilidades.
+
+💧 **Umidade do ar:** Mostra o percentual de umidade da cidade consultada.  
+
+📱 **Design responsivo:** Interface adaptável para diferentes tamanhos de tela, incluindo celulares, tablets e desktops.  
+
+🌐 **Integração com API OpenWeatherMap:** Os dados meteorológicos são obtidos dinamicamente por meio da API OpenWeatherMap.  
+
+🔗 **Deploy online:** O seu deploy foi feito na render e pode ser acessado por qualquer um.
 
 ## Tecnologias Utilizadas 💻
 
