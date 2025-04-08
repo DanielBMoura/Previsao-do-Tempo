@@ -30,17 +30,21 @@ No back-end, a aplicação utiliza Node.js para tratar as requisições e fazer 
 
 ## Tecnologias Utilizadas 💻
 
+**HTML**: Linguagem de marcação utilizada para estruturar a interface da aplicação.  
+
+**CSS**: Responsável pela estilização da interface e adaptação para diferentes tamanhos de tela.
+
+**JavaScript**: Utilizado para adicionar interatividade no front-end.  
+
 **Node.js**: Ambiente de execução JavaScript no servidor.  
 
-**MongoDB**: Banco de dados não relacional utilizado para guardar dados sobrecategorias e postagens registradas.  
+**Express.js**: Framework Node.js utilizado para criar rotas e gerenciar o servidor.  
 
-**Express.js**:  Framework Node.js utilizado para criar rotas no sistema.  
+**dotenv**: Biblioteca usada para gerenciar variáveis de ambiente de forma segura.  
 
-**JavaScript**: Linguagem principal utilizada no projeto.  
+**API OpenWeatherMap**: Serviço utilizado para obter dados de clima em tempo real de forma externa.  
 
-**Bootstrap**: Framework CSS utilizado para estilizar a interface e fornecer componentes responsivos.  
-
-**Handlebars**: Motor de templates utilizado para gerar páginas dinâmicas no projeto.  
+**Render**: Plataforma utilizada para fazer o deploy e deixar a aplicação online.
 
 ## Como clonar o repositório 📋
 
