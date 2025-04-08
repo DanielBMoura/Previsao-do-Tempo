@@ -7,7 +7,9 @@
 Este projeto é um sistema de previsão do tempo responsivo, desenvolvido com o objetivo de fornecer informações atualizadas sobre as condições climáticas de qualquer localidade.
 Com uma interface simples e intuitiva, o usuário pode consultar a temperatura atual, saber se o tempo está ensolarado, nublado ou chuvoso, além de acompanhar dados sobre a umidade do ar. <br>
 A aplicação foi construída utilizando HTML, CSS e JavaScript no front-end, garantindo uma boa experiência em diferentes dispositivos. 
-No back-end, a aplicação utiliza Node.js para tratar as requisições e fazer a integração com APIs de clima em tempo real.
+No back-end, a aplicação utiliza Node.js para tratar as requisições e fazer a integração com APIs de clima em tempo real. <br>
+📡 O projeto pode ser acessado por este link:
+👉 https://previsao-do-tempo-iamd.onrender.com/
 </p>
 
 ## Funcionalidades ✨
