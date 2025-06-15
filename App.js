@@ -12,6 +12,7 @@ app.get('/', async (req, res) => {
 
 app.get("/clima", async (req, res) => {
     const cidade = req.query.cidade
+
     const chave = process.env.API_KEY
   
     const resposta = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${cidade}&appid=${chave}&lang=pt_br&units=metric`)
